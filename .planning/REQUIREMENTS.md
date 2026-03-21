@@ -71,24 +71,24 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01 | Phase ? | Pending |
-| HERO-02 | Phase ? | Pending |
-| HERO-03 | Phase ? | Pending |
-| WORK-01 | Phase ? | Pending |
-| WORK-02 | Phase ? | Pending |
-| WORK-03 | Phase ? | Pending |
-| WORK-04 | Phase ? | Pending |
-| ABUT-01 | Phase ? | Pending |
-| ABUT-02 | Phase ? | Pending |
-| CONT-01 | Phase ? | Pending |
-| CONT-02 | Phase ? | Pending |
-| A11Y-01 | Phase ? | Pending |
+| HERO-01 | Phase 2 | Pending |
+| HERO-02 | Phase 2 | Pending |
+| HERO-03 | Phase 2 | Pending |
+| WORK-01 | Phase 3 | Pending |
+| WORK-02 | Phase 3 | Pending |
+| WORK-03 | Phase 3 | Pending |
+| WORK-04 | Phase 3 | Pending |
+| ABUT-01 | Phase 4 | Pending |
+| ABUT-02 | Phase 4 | Pending |
+| CONT-01 | Phase 4 | Pending |
+| CONT-02 | Phase 4 | Pending |
+| A11Y-01 | Phase 2 | Pending |
 
 **Coverage:**
 - v1 requirements: 12 total
-- Mapped to phases: 0
-- Unmapped: 12 ⚠️
+- Mapped to phases: 12
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-03-21*
-*Last updated: 2026-03-21 after initial definition*
+*Last updated: 2026-03-21 after roadmap creation — traceability complete*

@@ -29,7 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. About founder narrative is drafted in Ida's voice and approved
   4. Next.js 15 repo runs locally with TypeScript, Tailwind v4, and App Router; `data/case-studies.ts` is typed and populated with Phase 1 content
   5. Animation infrastructure is initialized: GSAP registered, Lenis SmoothScrollProvider mounted, `template.tsx` wired with AnimatePresence — a test page transition fires without errors
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — Scaffold Next.js 15, configure Tailwind v4 @theme tokens, wire animation infrastructure (Lenis + GSAP + Motion + template.tsx)
+- [ ] 01-02-PLAN.md — Author and approve all Phase 1 copy: hero, About narrative, and case study narratives in data/case-studies.ts
 
 ### Phase 2: Hero + Routing
 **Goal**: Visitors land on a site that immediately communicates who Ida is and routes them to their relevant path — with animation that signals craft from the first second
@@ -75,3 +79,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 2. Hero + Routing | 0/TBD | Not started | - |
 | 3. Work Section + Case Studies | 0/TBD | Not started | - |
 | 4. About + Contact + Launch | 0/TBD | Not started | - |
+

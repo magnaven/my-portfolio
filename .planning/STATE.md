@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 01-foundation-01-PLAN.md
-last_updated: "2026-03-22T05:59:59.713Z"
+stopped_at: "Checkpoint: Task 3 of 01-02-PLAN.md — awaiting Ida's content review and approval"
+last_updated: "2026-03-22T06:00:34.749Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
-  completed_phases: 0
+  completed_phases: 1
   total_plans: 2
-  completed_plans: 1
+  completed_plans: 2
   percent: 0
 ---
 
@@ -51,6 +51,7 @@ Progress: [░░░░░░░░░░] 0%
 
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 3 | 2 tasks | 7 files |
+| Phase 01-foundation P02 | 4 | 2 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -65,6 +66,7 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: Lenis autoRaf:false driven by gsap.ticker prevents double RAF loop with ScrollTrigger
 - [Phase 01-foundation]: template.tsx (not layout.tsx) used for transitions — Next.js remounts template on every navigation enabling exit animations
 - [Phase 01-foundation]: Tailwind v4 @theme tokens in globals.css — no tailwind.config.js needed
+- [Phase 01-foundation]: content/ and data/ are separate directories — authored prose vs. structured typed records; CaseStudy interface locked in Phase 1 for phases 3+ to consume verbatim
 
 ### Pending Todos
 
@@ -77,6 +79,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-22T05:59:59.711Z
-Stopped at: Completed 01-foundation-01-PLAN.md
+Last session: 2026-03-22T06:00:34.746Z
+Stopped at: Checkpoint: Task 3 of 01-02-PLAN.md — awaiting Ida's content review and approval
 Resume file: None

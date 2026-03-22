@@ -12,7 +12,7 @@ Four phases: lock the content and build the foundation, then deliver the site fr
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation** - Content authored, project scaffolded, animation infrastructure in place — nothing visual ships but everything that follows depends on this
+- [x] **Phase 1: Foundation** - Content authored, project scaffolded, animation infrastructure in place — nothing visual ships but everything that follows depends on this (completed 2026-03-22)
 - [ ] **Phase 2: Hero + Routing** - Animated hero live with locked copy and dual audience CTAs — the first craft signal visitors see
 - [ ] **Phase 3: Work Section + Case Studies** - Browsable case study grid and full scroll-storytelling case study pages — the core conversion mechanism for both audiences
 - [ ] **Phase 4: About + Contact + Launch** - About narrative and contact CTAs complete the site; both conversion paths walkable end-to-end
@@ -75,7 +75,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 1/2 | In Progress|  |
+| 1. Foundation | 2/2 | Complete   | 2026-03-22 |
 | 2. Hero + Routing | 0/TBD | Not started | - |
 | 3. Work Section + Case Studies | 0/TBD | Not started | - |
 | 4. About + Contact + Launch | 0/TBD | Not started | - |

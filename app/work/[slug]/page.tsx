@@ -1,5 +1,7 @@
 import { notFound } from "next/navigation";
 import { caseStudies } from "@/data/case-studies";
+import { CaseStudyHero } from "@/components/CaseStudyHero";
+import { CaseStudyChapters } from "@/components/CaseStudyChapters";
 
 export function generateStaticParams() {
   return caseStudies
@@ -17,11 +19,10 @@ export default async function CaseStudyPage({
 
   if (!study) notFound();
 
-  // Temporary placeholder — Plan 03 replaces this body with cinematic scroll content
   return (
-    <main className="min-h-screen bg-canvas px-8 py-32">
-      <h1 className="font-display text-6xl text-ink">{study.title}</h1>
-      <p className="font-sans text-ink/50 mt-4">{study.category}</p>
+    <main>
+      <CaseStudyHero study={study} />
+      <CaseStudyChapters study={study} />
     </main>
   );
 }

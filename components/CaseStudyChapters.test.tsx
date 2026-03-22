@@ -92,11 +92,12 @@ describe("CaseStudyChapters — WORK-04", () => {
 // A11Y-01 / reduceMotion: chapter content renders visibly when prefers-reduced-motion is active
 describe("CaseStudyChapters — A11Y-01 / reduceMotion", () => {
   it("renders chapter content at full visibility with reduceMotion=true", async () => {
-    vi.mocked(gsap.matchMedia).mockImplementationOnce(() => ({
-      add: vi.fn((conditions, callback) => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    vi.mocked(gsap.matchMedia).mockImplementationOnce((() => ({
+      add: vi.fn((conditions: unknown, callback: (ctx: { conditions: { reduceMotion: boolean } }) => void) => {
         callback({ conditions: { reduceMotion: true } });
       }),
-    }));
+    })) as any);
 
     const { CaseStudyChapters } = await import("../components/CaseStudyChapters");
     render(<CaseStudyChapters study={testStudy} />);

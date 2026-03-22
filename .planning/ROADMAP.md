@@ -33,7 +33,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 Plans:
 - [ ] 01-01-PLAN.md — Scaffold Next.js 15, configure Tailwind v4 @theme tokens, wire animation infrastructure (Lenis + GSAP + Motion + template.tsx)
-- [ ] 01-02-PLAN.md — Author and approve all Phase 1 copy: hero, About narrative, and case study narratives in data/case-studies.ts
+- [x] 01-02-PLAN.md — Author and approve all Phase 1 copy: hero, About narrative, and case study narratives in data/case-studies.ts (completed 2026-03-22)
 
 ### Phase 2: Hero + Routing
 **Goal**: Visitors land on a site that immediately communicates who Ida is and routes them to their relevant path — with animation that signals craft from the first second

@@ -11,7 +11,7 @@ requires:
 provides:
   - content/hero.ts — typed heroCopy export with headline, credentialLine, and both CTA labels
   - content/about.ts — typed aboutContent.narrative array with 3-paragraph founder voice narrative
-  - data/case-studies.ts — typed CaseStudy/KeyDecision/Outcome interfaces + 3 populated case studies
+  - data/case-studies.ts — typed CaseStudy/KeyDecision/Outcome interfaces + 3 approved real case studies
 affects: [02-hero-routing, 03-work-section, 04-about-contact]
 
 # Tech tracking
@@ -32,7 +32,7 @@ key-files:
 key-decisions:
   - "Content directory separate from data — content/ for authored copy, data/ for structured data records; distinction prevents ambiguity as project grows"
   - "CaseStudy interface locked in Phase 1 — interface fields not restructurable after this plan; phases 3+ consume it verbatim"
-  - "Three case studies authored from available context (Magna Ventures 0-to-1, AIDA AI activation, design system at AIDA AI) — checkpoint gives Ida opportunity to correct names, metrics, or replace with actual projects"
+  - "Case studies replaced with Ida's real work: AIDA AI B2B pivot, Connectd three-sided platform, VCCP healthcare design strategy — all Ida-approved"
 
 patterns-established:
   - "as const on copy objects: preserves string literal types, prevents mutations, improves tree-shaking"
@@ -42,25 +42,27 @@ patterns-established:
 requirements-completed: []
 
 # Metrics
-duration: 4min
+duration: ~20min (including checkpoint and content revision)
 completed: 2026-03-22
 ---
 
 # Phase 1 Plan 02: Content Authoring Summary
 
-**Typed content layer authored: hero copy, About founder narrative, and 3 case studies with full problem/process/key decisions/outcomes in typed TypeScript files**
+**Approved typed content layer: hero copy, About founder narrative, and 3 real case studies (AIDA AI B2B pivot, Connectd, VCCP) locked in TypeScript before Phase 2 component work begins**
 
 ## Performance
 
-- **Duration:** 4 min
+- **Duration:** ~20 min (including human checkpoint and case study replacement)
 - **Started:** 2026-03-22T05:55:04Z
-- **Completed:** 2026-03-22T05:59:34Z
-- **Tasks:** 2 of 3 complete (Task 3 is a human-review checkpoint — awaiting Ida's approval)
+- **Completed:** 2026-03-22
+- **Tasks:** 3 of 3 complete
 - **Files modified:** 3
 
 ## Accomplishments
 - Created `data/case-studies.ts` with locked TypeScript interface (`CaseStudy`, `KeyDecision`, `Outcome`) and 3 fully-populated case study entries
-- Confirmed `content/hero.ts` and `content/about.ts` exist with authored copy matching plan specification (these were pre-created in plan 01-01's bootstrap commit)
+- Confirmed `content/hero.ts` and `content/about.ts` exist with authored copy matching plan specification
+- Case studies replaced with Ida's real work: AIDA AI B2B pivot, Connectd three-sided platform, VCCP healthcare design strategy
+- Ida reviewed and approved all copy — hero, about narrative, and all three case studies
 - TypeScript compiles clean (`npx tsc --noEmit`) across all content and data files
 
 ## Task Commits
@@ -69,38 +71,35 @@ Each task was committed atomically:
 
 1. **Task 1: Create content/hero.ts and content/about.ts** - `63053cc` (feat) — pre-created in plan 01-01 bootstrap; verified content matches spec exactly
 2. **Task 2: Create data/case-studies.ts** - `8c97eba` (feat)
-3. **Task 3: Ida reviews and approves all content** - PENDING (checkpoint:human-verify)
+3. **Task 3: Ida reviews and approves all content** - `4d2b516` (content) — case studies replaced with real work, hero and about approved as written
 
 ## Files Created/Modified
-- `content/hero.ts` — heroCopy const with headline, credentialLine, ctaDesignPartner, ctaHiring; created in 01-01
-- `content/about.ts` — aboutContent.narrative array with 3-paragraph founder voice narrative; created in 01-01
-- `data/case-studies.ts` — CaseStudy/KeyDecision/Outcome interfaces + 3 populated case studies; created in 01-02
+- `content/hero.ts` — heroCopy const with headline, credentialLine, ctaDesignPartner, ctaHiring; created in 01-01, approved as-is
+- `content/about.ts` — aboutContent.narrative array with 3-paragraph founder voice narrative; created in 01-01, approved as-is
+- `data/case-studies.ts` — CaseStudy/KeyDecision/Outcome interfaces + 3 Ida-approved case studies with real projects and real metrics
 
 ## Decisions Made
 - content/ and data/ are intentionally separate directories: content/ holds authored prose, data/ holds structured typed records
 - CaseStudy interface is locked after Phase 1 — phases 3+ consume it verbatim with no restructuring
-- Case study narratives authored from context (Magna Ventures, AIDA AI) — best-effort before Ida's review
+- Case studies replaced with Ida's real work during checkpoint: AIDA AI B2B pivot (from marketplace to B2B SaaS), Connectd (three-sided platform, design system from scratch), VCCP (healthcare design strategy for Vitality, Pension Buddy, Fidelity)
+- Hero and About copy approved verbatim — no changes requested
 
 ## Deviations from Plan
 
-None - plan executed exactly as written. The content/hero.ts and content/about.ts files were found already committed from plan 01-01's bootstrap; they matched the plan's specified content verbatim, so no re-authoring was needed.
+None - plan executed exactly as written. The content/hero.ts and content/about.ts files were found already committed from plan 01-01's bootstrap; they matched the plan's specified content verbatim. The case study placeholder content was replaced with Ida's real work as intended by the checkpoint flow.
 
 ## Issues Encountered
-- `content/hero.ts` and `content/about.ts` were discovered already committed in plan 01-01. Both files matched plan 01-02's specification exactly — no action needed, verified and treated as complete.
+None.
 
 ## User Setup Required
 
-**Content review required before Phase 2 begins.** Ida must review and approve:
-1. `content/hero.ts` — Is the headline, credential line, and both CTA labels correct and in your voice?
-2. `content/about.ts` — Is the narrative in your voice? Accurate about your experience and beliefs?
-3. `data/case-studies.ts` — Are the three case studies your real projects? Are the metrics accurate? Do you want to add, remove, or replace any entries?
-
-To approve: resume this checkpoint and type "approved", or describe corrections and Claude will update the files.
+None - content review completed. All copy approved by Ida.
 
 ## Next Phase Readiness
-- Task 3 (human review checkpoint) must complete before Phase 2 begins
-- Once Ida approves: all Phase 1 content is locked, Phase 2 can begin dropping copy into components verbatim
-- `data/case-studies.ts` interface is locked — no restructuring after approval
+- All Phase 1 content locked and approved — Phase 2 can drop copy into components verbatim
+- `data/case-studies.ts` interface is locked — no restructuring after this point
+- Three case study IDs for routing: `aida-ai-b2b-pivot`, `connectd-three-sided-platform`, `vccp-healthcare-design`
+- Phase 2 (hero + routing) can begin immediately
 
 ---
 *Phase: 01-foundation*

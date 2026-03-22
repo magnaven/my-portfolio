@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: "Checkpoint: Task 3 of 01-02-PLAN.md — awaiting Ida's content review and approval"
-last_updated: "2026-03-22T06:00:34.749Z"
+stopped_at: Completed 01-foundation-01-02-PLAN.md — all content approved, Phase 1 complete
+last_updated: "2026-03-22T06:12:12.807Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
@@ -52,6 +52,7 @@ Progress: [░░░░░░░░░░] 0%
 *Updated after each plan completion*
 | Phase 01-foundation P01 | 3 | 2 tasks | 7 files |
 | Phase 01-foundation P02 | 4 | 2 tasks | 3 files |
+| Phase 01-foundation P02 | 20min | 3 tasks | 3 files |
 
 ## Accumulated Context
 
@@ -67,6 +68,7 @@ Recent decisions affecting current work:
 - [Phase 01-foundation]: template.tsx (not layout.tsx) used for transitions — Next.js remounts template on every navigation enabling exit animations
 - [Phase 01-foundation]: Tailwind v4 @theme tokens in globals.css — no tailwind.config.js needed
 - [Phase 01-foundation]: content/ and data/ are separate directories — authored prose vs. structured typed records; CaseStudy interface locked in Phase 1 for phases 3+ to consume verbatim
+- [Phase 01-foundation]: Case studies replaced with Ida's real work: AIDA AI B2B pivot, Connectd three-sided platform, VCCP healthcare design — all approved at checkpoint
 
 ### Pending Todos
 
@@ -79,6 +81,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-22T06:00:34.746Z
-Stopped at: Checkpoint: Task 3 of 01-02-PLAN.md — awaiting Ida's content review and approval
+Last session: 2026-03-22T06:12:12.804Z
+Stopped at: Completed 01-foundation-01-02-PLAN.md — all content approved, Phase 1 complete
 Resume file: None

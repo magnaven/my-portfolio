@@ -9,9 +9,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Hero
 
-- [ ] **HERO-01**: Visitor sees an animated POV headline on landing that expresses the founder lens (not a generic design bio)
-- [ ] **HERO-02**: Visitor can choose one of two explicit audience paths in the hero ("Looking for a design partner?" / "Hiring?") that route to path-specific content and CTAs
-- [ ] **HERO-03**: Hero includes a role/credential line (Magna Ventures, AIDA AI, 12 years experience) as an authority signal
+- [x] **HERO-01**: Visitor sees an animated POV headline on landing that expresses the founder lens (not a generic design bio)
+- [x] **HERO-02**: Visitor can choose one of two explicit audience paths in the hero ("Looking for a design partner?" / "Hiring?") that route to path-specific content and CTAs
+- [x] **HERO-03**: Hero includes a role/credential line (Magna Ventures, AIDA AI, 12 years experience) as an authority signal
 
 ### Work
 
@@ -32,7 +32,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Accessibility
 
-- [ ] **A11Y-01**: All animations respect the visitor's `prefers-reduced-motion` OS preference (animations skip or reduce appropriately)
+- [x] **A11Y-01**: All animations respect the visitor's `prefers-reduced-motion` OS preference (animations skip or reduce appropriately)
 
 ## v2 Requirements
 
@@ -71,9 +71,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01 | Phase 2 | Pending |
-| HERO-02 | Phase 2 | Pending |
-| HERO-03 | Phase 2 | Pending |
+| HERO-01 | Phase 2 | Complete |
+| HERO-02 | Phase 2 | Complete |
+| HERO-03 | Phase 2 | Complete |
 | WORK-01 | Phase 3 | Pending |
 | WORK-02 | Phase 3 | Pending |
 | WORK-03 | Phase 3 | Pending |
@@ -82,7 +82,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ABUT-02 | Phase 4 | Pending |
 | CONT-01 | Phase 4 | Pending |
 | CONT-02 | Phase 4 | Pending |
-| A11Y-01 | Phase 2 | Pending |
+| A11Y-01 | Phase 2 | Complete |
 
 **Coverage:**
 - v1 requirements: 12 total

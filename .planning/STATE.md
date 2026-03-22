@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-work-section-case-studies-03-00-PLAN.md
-last_updated: "2026-03-22T16:13:50.719Z"
+stopped_at: Completed 03-01-PLAN.md
+last_updated: "2026-03-22T16:15:40.232Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
   completed_phases: 2
   total_plans: 11
-  completed_plans: 8
+  completed_plans: 9
   percent: 0
 ---
 
@@ -59,6 +59,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-hero-routing P04 | 5min | 2 tasks | 0 files |
 | Phase 03-work-section-case-studies P02 | 5min | 1 tasks | 2 files |
 | Phase 03-work-section-case-studies P00 | 2min | 2 tasks | 2 files |
+| Phase 03-work-section-case-studies P01 | 15min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -86,6 +87,8 @@ Recent decisions affecting current work:
 - [Phase 03-work-section-case-studies]: alwaysSolid injected into both initial setScrolled call and scroll handler for solid NavBar on case study pages from page load, not first scroll
 - [Phase 03-work-section-case-studies]: Used real caseStudies import for assertions (not hardcoded strings) so tests stay in sync with content changes
 - [Phase 03-work-section-case-studies]: Mocked next/link as plain anchor to make href inspectable in jsdom without Next.js routing infrastructure
+- [Phase 03-work-section-case-studies]: CaseStudyCard uses CSS group-hover (no 'use client') for hover state — stays a pure Server Component
+- [Phase 03-work-section-case-studies]: app/work/[slug]/page.tsx uses await params pattern required by Next.js 15+ with temporary placeholder body for Plan 03 to replace
 
 ### Quick Tasks Completed
 
@@ -104,6 +107,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-22T16:13:50.716Z
-Stopped at: Completed 03-work-section-case-studies-03-00-PLAN.md
+Last session: 2026-03-22T16:15:40.230Z
+Stopped at: Completed 03-01-PLAN.md
 Resume file: None

@@ -16,8 +16,8 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Work
 
 - [ ] **WORK-01**: Visitor can browse a visual grid of 3–4 selected case studies (title, category, thumbnail preview)
-- [ ] **WORK-02**: Visitor can navigate from the grid to individual full case study pages
-- [ ] **WORK-03**: Case study pages use GSAP scroll storytelling — narrative unfolds cinematically as visitor scrolls (problem → process → decisions → outcomes)
+- [x] **WORK-02**: Visitor can navigate from the grid to individual full case study pages
+- [x] **WORK-03**: Case study pages use GSAP scroll storytelling — narrative unfolds cinematically as visitor scrolls (problem → process → decisions → outcomes)
 - [ ] **WORK-04**: Each case study includes an explicit "Key Decisions" section showing what was weighed, what was killed, and what constraints shaped the outcome
 
 ### About
@@ -75,8 +75,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HERO-02 | Phase 2 | Complete |
 | HERO-03 | Phase 2 | Complete |
 | WORK-01 | Phase 3 | Pending |
-| WORK-02 | Phase 3 | Pending |
-| WORK-03 | Phase 3 | Pending |
+| WORK-02 | Phase 3 | Complete |
+| WORK-03 | Phase 3 | Complete |
 | WORK-04 | Phase 3 | Pending |
 | ABUT-01 | Phase 4 | Pending |
 | ABUT-02 | Phase 4 | Pending |

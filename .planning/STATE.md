@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 03-02-PLAN.md
-last_updated: "2026-03-22T16:13:31.129Z"
+stopped_at: Completed 03-work-section-case-studies-03-00-PLAN.md
+last_updated: "2026-03-22T16:13:50.719Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
@@ -58,6 +58,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 02-hero-routing P02 | 20min | 2 tasks | 2 files |
 | Phase 02-hero-routing P04 | 5min | 2 tasks | 0 files |
 | Phase 03-work-section-case-studies P02 | 5min | 1 tasks | 2 files |
+| Phase 03-work-section-case-studies P00 | 2min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -83,6 +84,8 @@ Recent decisions affecting current work:
 - [Phase 02-hero-routing]: Phase 2 visual verification approved: GSAP animation sequence, Lenis CTA routing, nav scroll transition, prefers-reduced-motion, and typography all confirmed correct in browser
 - [Phase 03-work-section-case-studies]: usePathname().startsWith('/work/') sets alwaysSolid in NavBar — no prop threading from parent layout needed
 - [Phase 03-work-section-case-studies]: alwaysSolid injected into both initial setScrolled call and scroll handler for solid NavBar on case study pages from page load, not first scroll
+- [Phase 03-work-section-case-studies]: Used real caseStudies import for assertions (not hardcoded strings) so tests stay in sync with content changes
+- [Phase 03-work-section-case-studies]: Mocked next/link as plain anchor to make href inspectable in jsdom without Next.js routing infrastructure
 
 ### Quick Tasks Completed
 
@@ -101,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-22T16:13:31.126Z
-Stopped at: Completed 03-02-PLAN.md
+Last session: 2026-03-22T16:13:50.716Z
+Stopped at: Completed 03-work-section-case-studies-03-00-PLAN.md
 Resume file: None

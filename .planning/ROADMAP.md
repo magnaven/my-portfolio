@@ -44,7 +44,13 @@ Plans:
   2. Visitor sees two explicit audience CTAs in the hero ("Looking for a design partner?" and "Hiring?") and can click either to route to path-specific content
   3. Visitor sees the role/credential line (Magna Ventures, AIDA AI, 12 years experience) as an authority signal beneath the headline
   4. Visitor with `prefers-reduced-motion` enabled sees the same content with animations skipped or reduced — nothing is hidden, only motion is suppressed
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+- [ ] 02-01-PLAN.md — Install vitest infrastructure and write failing stub tests for HeroSection and NavBar (Wave 0)
+- [ ] 02-02-PLAN.md — Build HeroSection component: GSAP SplitText headline, credential line, dual CTA buttons with Lenis routing, scroll indicator; wire into page.tsx
+- [ ] 02-03-PLAN.md — Build NavBar component: sticky nav, transparent-to-solid scroll behavior, smooth-scroll links, load animation; wire into layout.tsx
+- [ ] 02-04-PLAN.md — Visual verification checkpoint: confirm animation sequence, CTA routing, nav behavior, and prefers-reduced-motion compliance
 
 ### Phase 3: Work Section + Case Studies
 **Goal**: Visitors can browse and read richly crafted case studies that demonstrate judgment, not just execution — the primary conversion moment for both consulting clients and hiring managers
@@ -76,7 +82,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-22 |
-| 2. Hero + Routing | 0/TBD | Not started | - |
+| 2. Hero + Routing | 0/4 | Not started | - |
 | 3. Work Section + Case Studies | 0/TBD | Not started | - |
 | 4. About + Contact + Launch | 0/TBD | Not started | - |
 

@@ -61,7 +61,14 @@ Plans:
   2. Visitor can click a card and navigate to the full case study page at `/work/[slug]`
   3. On a case study page, the narrative unfolds cinematically as the visitor scrolls — problem, process, and outcomes are revealed through GSAP ScrollTrigger sequencing
   4. Each case study page contains an explicit "Key Decisions" section that shows what was weighed, what was killed, and what constraints shaped the outcome
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [ ] 03-00-PLAN.md — Wave 0: Create failing test scaffolds for WorkSection (WORK-01, WORK-02) and CaseStudyChapters (WORK-03, WORK-04)
+- [ ] 03-01-PLAN.md — Build WorkSection + CaseStudyCard (homepage grid) and /work/[slug] dynamic route stub; wire into page.tsx
+- [ ] 03-02-PLAN.md — Fix NavBar solid-state on /work/ routes using usePathname()
+- [ ] 03-03-PLAN.md — Build CaseStudyHero, CaseStudyChapters (pinned scroll narrative), DecisionCard, OutcomeStat; wire into /work/[slug] page
+- [ ] 03-04-PLAN.md — Visual verification checkpoint: confirm grid, card animation, cinematic scroll, Key Decisions contrast, progress bar, reduced motion
 
 ### Phase 4: About + Contact + Launch
 **Goal**: Both conversion paths are complete — a consulting client can understand Ida's POV and book a call; a hiring manager can read her story and reach out — the site is ready to share
@@ -83,6 +90,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 |-------|----------------|--------|-----------|
 | 1. Foundation | 2/2 | Complete   | 2026-03-22 |
 | 2. Hero + Routing | 4/4 | Complete   | 2026-03-22 |
-| 3. Work Section + Case Studies | 0/TBD | Not started | - |
+| 3. Work Section + Case Studies | 0/5 | Not started | - |
 | 4. About + Contact + Launch | 0/TBD | Not started | - |
-

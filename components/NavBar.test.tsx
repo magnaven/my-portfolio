@@ -1,6 +1,10 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 
+vi.mock("next/navigation", () => ({
+  usePathname: vi.fn(() => "/"),
+}));
+
 vi.mock("lenis/react", () => ({
   useLenis: vi.fn(() => ({ scrollTo: vi.fn() })),
 }));

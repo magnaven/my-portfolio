@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useLenis } from "lenis/react";
@@ -8,15 +9,18 @@ export function NavBar() {
   const [scrolled, setScrolled] = useState(false);
   const navRef = useRef<HTMLElement>(null);
   const lenis = useLenis();
+  const pathname = usePathname();
+  const alwaysSolid = pathname.startsWith("/work/");
 
-  // Transparent → solid on scroll
+  // Transparent → solid on scroll (always solid on /work/ case study pages)
   useEffect(() => {
+    setScrolled(alwaysSolid || window.scrollY > 90);
     const handleScroll = () => {
-      setScrolled(window.scrollY > 90); // ~90px threshold — just past the nav's own height
+      setScrolled(alwaysSolid || window.scrollY > 90); // ~90px threshold — just past the nav's own height
     };
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [alwaysSolid]);
 
   // Load fade-in animation — after hero CTAs (~1.4s delay)
   useGSAP(() => {

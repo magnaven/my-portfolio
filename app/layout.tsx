@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, DM_Sans } from "next/font/google";
 import { SmoothScrollProvider } from "@/providers/SmoothScrollProvider";
+import { NavBar } from "@/components/NavBar";
 import "./globals.css";
 
 const displayFont = Playfair_Display({
@@ -30,7 +31,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${displayFont.variable} ${sansFont.variable}`}>
       <body className="bg-canvas text-ink font-sans antialiased">
-        <SmoothScrollProvider>{children}</SmoothScrollProvider>
+        <SmoothScrollProvider>
+          <NavBar />
+          {children}
+        </SmoothScrollProvider>
       </body>
     </html>
   );

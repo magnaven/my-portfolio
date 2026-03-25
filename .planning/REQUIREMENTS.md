@@ -22,13 +22,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### About
 
-- [ ] **ABUT-01**: Visitor reads a founder lens narrative in the About section — Ida's POV in her own voice, not a resume bio
-- [ ] **ABUT-02**: Visitor can download Ida's resume/CV as a PDF from the About section
+- [x] **ABUT-01**: Visitor reads a founder lens narrative in the About section — Ida's POV in her own voice, not a resume bio
+- [x] **ABUT-02**: Visitor can download Ida's resume/CV as a PDF from the About section
 
 ### Contact
 
-- [ ] **CONT-01**: Consulting-path visitor can book a call via embedded calendar (Calendly or Cal.com) routed from the "design partner" entry point
-- [ ] **CONT-02**: Visitor can navigate to Ida's LinkedIn profile from the site
+- [x] **CONT-01**: Consulting-path visitor can book a call via embedded calendar (Calendly or Cal.com) routed from the "design partner" entry point
+- [x] **CONT-02**: Visitor can navigate to Ida's LinkedIn profile from the site
 
 ### Accessibility
 
@@ -78,10 +78,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | WORK-02 | Phase 3 | Complete |
 | WORK-03 | Phase 3 | Complete |
 | WORK-04 | Phase 3 | Complete |
-| ABUT-01 | Phase 4 | Pending |
-| ABUT-02 | Phase 4 | Pending |
-| CONT-01 | Phase 4 | Pending |
-| CONT-02 | Phase 4 | Pending |
+| ABUT-01 | Phase 4 | Complete |
+| ABUT-02 | Phase 4 | Complete |
+| CONT-01 | Phase 4 | Complete |
+| CONT-02 | Phase 4 | Complete |
 | A11Y-01 | Phase 2 | Complete |
 
 **Coverage:**

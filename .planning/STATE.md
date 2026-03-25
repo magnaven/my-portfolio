@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Phase 4 planning complete
-last_updated: "2026-03-25T09:33:34.105Z"
+stopped_at: Completed 04-about-contact-launch-04-00-PLAN.md
+last_updated: "2026-03-25T11:47:18.316Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
   completed_phases: 3
   total_plans: 16
-  completed_plans: 11
+  completed_plans: 12
   percent: 0
 ---
 
@@ -62,6 +62,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-work-section-case-studies P01 | 15min | 2 tasks | 4 files |
 | Phase 03-work-section-case-studies P03 | 2min | 2 tasks | 6 files |
 | Phase 03-work-section-case-studies P04 | 5min | 1 tasks | 0 files |
+| Phase 04-about-contact-launch P00 | 5min | 1 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -93,6 +94,8 @@ Recent decisions affecting current work:
 - [Phase 03-work-section-case-studies]: app/work/[slug]/page.tsx uses await params pattern required by Next.js 15+ with temporary placeholder body for Plan 03 to replace
 - [Phase 03-work-section-case-studies]: Pre-existing TS type error in test mock fixed with 'as any' cast — vi.mocked(gsap.matchMedia) not satisfying MatchMedia return type, runtime behaviour unchanged
 - [Phase 03-work-section-case-studies]: Phase 3 visual verification approved by human — GSAP ScrollTrigger pinning, stagger animations, hover states, progress bar, NavBar solid state, and prefers-reduced-motion all confirmed correct in browser
+- [Phase 04-about-contact-launch]: CV link tested via getByRole('link', name: /cv/i) — implementation must include accessible label containing 'cv'
+- [Phase 04-about-contact-launch]: @calcom/embed-react mocked via vi.mock for jsdom; Cal.com button matched via /book|schedule|cal/i role query
 
 ### Quick Tasks Completed
 
@@ -111,6 +114,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-25T09:33:34.098Z
-Stopped at: Phase 4 planning complete
-Resume file: .planning/phases/04-about-contact-launch/04-PLAN.md
+Last session: 2026-03-25T11:47:18.313Z
+Stopped at: Completed 04-about-contact-launch-04-00-PLAN.md
+Resume file: None

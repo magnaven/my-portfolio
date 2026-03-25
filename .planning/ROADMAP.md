@@ -79,7 +79,14 @@ Plans:
   2. Visitor can download Ida's resume/CV as a PDF from the About section
   3. Consulting-path visitor can book a call via an embedded calendar (Calendly or Cal.com) — reachable from the "design partner" CTA path without hunting
   4. Visitor can navigate to Ida's LinkedIn profile from the site
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [ ] 04-00-PLAN.md — Wave 0 (TDD): Write failing test scaffolds for AboutSection (ABUT-01, ABUT-02) and ContactSection (CONT-01, CONT-02)
+- [ ] 04-01-PLAN.md — Build AboutSection: founder narrative from content/about.ts, CV download link, scroll-triggered fade-up animation
+- [ ] 04-02-PLAN.md — Build BookCallButton (Cal.com popup), ContactSection (two-column layout), content/contact.ts (URL constants)
+- [ ] 04-03-PLAN.md — Wire AboutSection + ContactSection into app/page.tsx; extend layout.tsx metadata with openGraph fields
+- [ ] 04-04-PLAN.md — Visual verification checkpoint: confirm About/Contact sections, full scroll flow, OG tags, prefers-reduced-motion
 
 ## Progress
 
@@ -91,4 +98,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4
 | 1. Foundation | 2/2 | Complete   | 2026-03-22 |
 | 2. Hero + Routing | 4/4 | Complete   | 2026-03-22 |
 | 3. Work Section + Case Studies | 5/5 | Complete   | 2026-03-22 |
-| 4. About + Contact + Launch | 0/TBD | Not started | - |
+| 4. About + Contact + Launch | 0/5 | Not started | - |

@@ -1,5 +1,7 @@
 import { HeroSection } from "@/components/HeroSection";
 import { WorkSection } from "@/components/WorkSection";
+import { AboutSection } from "@/components/AboutSection";
+import { ContactSection } from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -8,9 +10,8 @@ export default function Home() {
 
       <WorkSection />
 
-      {/* Section anchors — empty placeholders for Phase 4 content */}
-      <section id="about" className="min-h-screen bg-canvas" />
-      <section id="contact" className="min-h-screen bg-canvas" />
+      <AboutSection />
+      <ContactSection />
     </main>
   );
 }

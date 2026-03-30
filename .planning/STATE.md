@@ -3,14 +3,14 @@ gsd_state_version: 1.0
 milestone: v1.0
 milestone_name: milestone
 status: planning
-stopped_at: Completed 04-about-contact-launch-04-01-PLAN.md
-last_updated: "2026-03-30T12:03:35.996Z"
+stopped_at: Completed 04-about-contact-launch-04-02-PLAN.md
+last_updated: "2026-03-30T12:04:52.975Z"
 last_activity: 2026-03-21 — Roadmap created, requirements mapped, STATE.md initialized
 progress:
   total_phases: 4
   completed_phases: 3
   total_plans: 16
-  completed_plans: 13
+  completed_plans: 14
   percent: 0
 ---
 
@@ -64,6 +64,7 @@ Progress: [░░░░░░░░░░] 0%
 | Phase 03-work-section-case-studies P04 | 5min | 1 tasks | 0 files |
 | Phase 04-about-contact-launch P00 | 5min | 1 tasks | 2 files |
 | Phase 04-about-contact-launch P01 | 3min | 1 tasks | 1 files |
+| Phase 04-about-contact-launch P02 | 8min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -98,6 +99,8 @@ Recent decisions affecting current work:
 - [Phase 04-about-contact-launch]: CV link tested via getByRole('link', name: /cv/i) — implementation must include accessible label containing 'cv'
 - [Phase 04-about-contact-launch]: @calcom/embed-react mocked via vi.mock for jsdom; Cal.com button matched via /book|schedule|cal/i role query
 - [Phase 04-about-contact-launch]: AboutSection mirrors WorkSection.tsx exactly — same GSAP matchMedia structure, same label pattern, same container
+- [Phase 04-about-contact-launch]: BookCallButton isolates 'use client' boundary for Cal.com getCalApi — ContactSection stays a Server Component
+- [Phase 04-about-contact-launch]: content/contact.ts is single source of truth for Cal.com calLink and LinkedIn URL — placeholder values with BEFORE LAUNCH comments for Ida to fill before launch
 
 ### Quick Tasks Completed
 
@@ -116,6 +119,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-03-30T12:03:35.993Z
-Stopped at: Completed 04-about-contact-launch-04-01-PLAN.md
+Last session: 2026-03-30T12:04:52.973Z
+Stopped at: Completed 04-about-contact-launch-04-02-PLAN.md
 Resume file: None

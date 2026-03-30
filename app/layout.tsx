@@ -20,7 +20,12 @@ const sansFont = DM_Sans({
 
 export const metadata: Metadata = {
   title: "Ida Dilfer Tinker — Product Designer",
-  description: "Portfolio of Ida Dilfer Tinker, Lead Product Designer at Magna Ventures and AIDA AI.",
+  description: "Lead Product Designer with a founder's lens. 12 years building products at Magna Ventures, AIDA AI, and beyond.",
+  openGraph: {
+    title: "Ida Dilfer Tinker — Product Designer",
+    description: "Lead Product Designer with a founder's lens. 12 years building products at Magna Ventures, AIDA AI, and beyond.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
